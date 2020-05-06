@@ -1,0 +1,56 @@
+.columnLeft {
+    float:left;
+    width: 40%;
+}
+
+.columnRight {
+    float: right;
+    width: 40%;
+}
+
+ul.alt {
+    list-style: circle;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+/* ul.alt li:before{
+    content: '';
+    display: inline-block;
+    height: 2em;
+    width: 2em;
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-image: url("../../images/list_icon.svg");
+} */
+
+ul.alt li {
+    border-bottom: solid 1px #c9c9c9;
+    border-top: none;
+    padding: 0.5em 0;
+}
+
+@media screen and (max-width: 980px) {    
+    .columnRight {        
+        width: 40%;
+    } 
+}
+
+
+@media screen and (max-width: 480px) {       
+    .columnLeft {
+        float:left;
+        width: 100%;
+    }    
+    .columnRight {        
+        float:left;
+        width:100%;
+    } 
+    ul {        
+        margin-bottom: 0;        
+    }
+    h2 {
+        margin-top: 2em;       
+    }
+}
+
