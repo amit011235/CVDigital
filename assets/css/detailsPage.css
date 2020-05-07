@@ -1,4 +1,7 @@
 
+#header {
+    padding-top:3em;
+}
 
 .workContainer {
     overflow: hidden;
@@ -22,15 +25,14 @@
     margin-bottom:0;
 }
 
-h2 {    
+.workContainer h2 {
     margin-bottom:0;
     font-size: 1.5em;
 }
 
 p {
     text-align: justify;
-    font-size: 1.2em;
-    
+    font-size: 1.2em;    
 }
 
 .columnLeft {
@@ -54,6 +56,9 @@ p {
     .columnRight {        
         width: 74%;
     } 
+    #header {
+        padding-top:3em;
+    }
 }
 
 @media screen and (max-width: 980px) {    
@@ -69,6 +74,9 @@ p {
     .columnRight {        
         width: 60%;
     } 
+    #header {
+        padding-top:1.3em;
+    }
 }
 
 @media screen and (max-width: 480px) {
